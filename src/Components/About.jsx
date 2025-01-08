@@ -1,6 +1,8 @@
 import React from "react";
 import { FaLinkedin, FaInstagram, FaGithub, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
 
+import Lokesh from "../assets/Lokesh.pdf";
+
 const About = () => {
   return (
     <div className="min-h-screen bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white flex flex-col justify-center items-center p-6">
@@ -14,7 +16,7 @@ const About = () => {
           approach focuses on creating a supportive and engaging learning environment.
         </p>
         <div className="flex flex-wrap justify-center gap-4 mt-6">
-          <div className="bg-gray-800 rounded-lg p-6 shadow-md hover:scale-105 hover:shadow-lg transition-transform duration-300 w-64">
+          <div className="bg-gray-800 rounded-lg p-6 shadow-md hover:scale-105 hover:shadow-lg transition-transform duration-300 w-full md:w-64">
             <h3 className="text-xl font-semibold text-purple-400 mb-2">
               Proficient In
             </h3>
@@ -23,7 +25,7 @@ const About = () => {
               JavaScript, React
             </p>
           </div>
-          <div className="bg-gray-800 rounded-lg p-6 shadow-md hover:scale-105 hover:shadow-lg transition-transform duration-300 w-64">
+          <div className="bg-gray-800 rounded-lg p-6 shadow-md hover:scale-105 hover:shadow-lg transition-transform duration-300 w-full md:w-64">
             <h3 className="text-xl font-semibold text-purple-400 mb-2">
               Experience
             </h3>
@@ -34,7 +36,7 @@ const About = () => {
               problem-solving skills.
             </p>
           </div>
-          <div className="bg-gray-800 rounded-lg p-6 shadow-md hover:scale-105 hover:shadow-lg transition-transform duration-300 w-64">
+          <div className="bg-gray-800 rounded-lg p-6 shadow-md hover:scale-105 hover:shadow-lg transition-transform duration-300 w-full md:w-64">
             <h3 className="text-xl font-semibold text-purple-400 mb-2">
               Hobbies
             </h3>
@@ -95,7 +97,7 @@ const About = () => {
         {/* Get CV Button */}
         <div className="mt-12">
           <a
-            href="" // Replace with the actual path to your CV file
+            href= {Lokesh} // Replace with the actual path to your CV file
             download
             className="inline-block bg-purple-600 text-white font-semibold py-2 px-8 rounded-lg text-xl shadow-md hover:bg-purple-500 hover:scale-105 transition-all duration-300"
           >
