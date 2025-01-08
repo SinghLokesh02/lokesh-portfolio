@@ -1,1 +1,61 @@
- 
+ /* Add animations to App.css */
+@keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes zoomIn {
+    0% {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes slideUp {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-fadeInDown {
+    animation: fadeInDown 1s ease-out;
+  }
+  
+  .animate-fadeInUp {
+    animation: fadeInUp 1s ease-out;
+  }
+  
+  .animate-zoomIn {
+    animation: zoomIn 1s ease-out;
+  }
+  
+  .animate-slideUp {
+    animation: slideUp 1s ease-out;
+  }
+  

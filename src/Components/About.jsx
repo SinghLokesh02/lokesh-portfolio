@@ -8,7 +8,7 @@ const About = () => {
     <div className="min-h-screen bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white flex flex-col justify-center items-center p-6">
       <div className="max-w-4xl text-center">
         <h1 className="text-4xl font-bold mb-6">About Me</h1>
-        <p className="text-gray-300 text-lg leading-relaxed mb-8">
+        <p className="text-gray-300 text-lg leading-relaxed mb-8 text-justify md:text-left">
           I am a dedicated <span className="font-semibold text-purple-400">Coding Trainer </span> 
           with over 2 years of experience in institutional training. I specialize in breaking down 
           complex programming concepts into simple and easy-to-understand terms, ensuring that every 

@@ -4,11 +4,15 @@ import Contact from "./Components/Contact";
 import Skills from "./Components/Skills";
 import Experience from "./Components/Experience";
 import About from "./Components/About";
+import Home from "./Components/Home";
 
 const App = () => {
   return (
     <div className="bg-gray-900 text-white">
       <Navbar />
+      <div id="home" className="pt-20">
+        <Home />
+      </div>
       <div id="about" className="pt-20">
         <About />
       </div>

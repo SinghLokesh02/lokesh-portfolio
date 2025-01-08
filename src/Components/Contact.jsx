@@ -133,6 +133,9 @@ const Contact = () => {
           </a>
         </div>
       </div>
+      <footer className="mt-12 p-4  text-center text-gray-400">
+        <p>&copy; 2025 Lokesh Singh | All Rights Reserved</p>
+      </footer>
     </div>
   );
 };

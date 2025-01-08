@@ -20,6 +20,12 @@ const Navbar = () => {
             {/* Desktop Menu */}
             <div className="hidden md:flex space-x-6">
               <a
+                href="#home"
+                className="text-gray-300 hover:text-purple-400 transition-colors duration-300 text-lg"
+              >
+                Home
+              </a>
+              <a
                 href="#about"
                 className="text-gray-300 hover:text-purple-400 transition-colors duration-300 text-lg"
               >
@@ -70,6 +76,13 @@ const Navbar = () => {
         <div className="py-4 px-4 space-y-4">
           <a
             href="#about"
+            className="block text-gray-300 hover:text-purple-400 transition-colors duration-300 text-lg"
+            onClick={() => setIsMenuOpen(false)}
+          >
+            Home
+          </a>
+          <a
+            href="#home"
             className="block text-gray-300 hover:text-purple-400 transition-colors duration-300 text-lg"
             onClick={() => setIsMenuOpen(false)}
           >
