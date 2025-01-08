@@ -12,17 +12,17 @@ const Experience = () => {
     },
     {
       id: 2,
-      role: "IT Trainer",
+      role: "Software Faculty",
       company: "Miracle IT Career Academy  - Bhopal",
-      duration: "Nov 2024 - April 2024",
+      duration: "Nov 2023 - April 2024",
       description:
         "Successfully trained aspiring developers in C, C++, Python, and Frontend technologies at Miracle IT Career Academy - Bhopal. Fostered a strong understanding of programming fundamentals and equipped students with the skills necessary to excel in the competitive IT industry",
     },
     {
       id: 3,
-      role: "Coding Trainer",
+      role: "IT Trainer",
       company: "Technoglobe - Jaipur",
-      duration: "July 2024 - Nov 2024",
+      duration: "July 2023 - Nov 2023",
       description:
         "Prepared aspiring developers for successful careers in the IT industry as a Coding Trainer at Technoglobe - Jaipur. Provided comprehensive training in C, C++, Python, and Frontend development, equipping students with the knowledge and skills required to excel in today's competitive job market..",
     },
