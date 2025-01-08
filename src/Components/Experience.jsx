@@ -40,7 +40,7 @@ const Experience = () => {
             className="bg-gray-800 rounded-lg shadow-md p-6 hover:scale-105 hover:shadow-lg transition-all duration-300"
           >
             <h3 className="text-xl font-semibold mb-2">{experience.role}</h3>
-            <p className="text-purple-400 text-sm mb-1">{experience.company}</p>
+            <p className="text-blue-500 text-sm mb-1">{experience.company}</p>
             <p className="text-gray-400 text-sm mb-3">{experience.duration}</p>
             <p className="text-gray-300 text-sm">{experience.description}</p>
           </div>

@@ -9,7 +9,7 @@ const About = () => {
       <div className="max-w-4xl text-center">
         <h1 className="text-4xl font-bold mb-6">About Me</h1>
         <p className="text-gray-300 text-lg leading-relaxed mb-8 text-justify md:text-left">
-          I am a dedicated <span className="font-semibold text-purple-400">Coding Trainer </span> 
+          I am a dedicated <span className="font-semibold text-blue-500">Coding Trainer </span> 
           with over 2 years of experience in institutional training. I specialize in breaking down 
           complex programming concepts into simple and easy-to-understand terms, ensuring that every 
           student, regardless of their prior knowledge, can grasp the fundamentals and excel. My teaching 
@@ -17,7 +17,7 @@ const About = () => {
         </p>
         <div className="flex flex-wrap justify-center gap-4 mt-6">
           <div className="bg-gray-800 rounded-lg p-6 shadow-md hover:scale-105 hover:shadow-lg transition-transform duration-300 w-full md:w-64">
-            <h3 className="text-xl font-semibold text-purple-400 mb-2">
+            <h3 className="text-xl font-semibold text-blue-500 mb-2">
               Proficient In
             </h3>
             <p className="text-gray-300">
@@ -26,7 +26,7 @@ const About = () => {
             </p>
           </div>
           <div className="bg-gray-800 rounded-lg p-6 shadow-md hover:scale-105 hover:shadow-lg transition-transform duration-300 w-full md:w-64">
-            <h3 className="text-xl font-semibold text-purple-400 mb-2">
+            <h3 className="text-xl font-semibold text-blue-500 mb-2">
               Experience
             </h3>
             <p className="text-gray-300">
@@ -37,7 +37,7 @@ const About = () => {
             </p>
           </div>
           <div className="bg-gray-800 rounded-lg p-6 shadow-md hover:scale-105 hover:shadow-lg transition-transform duration-300 w-full md:w-64">
-            <h3 className="text-xl font-semibold text-purple-400 mb-2">
+            <h3 className="text-xl font-semibold text-blue-500 mb-2">
               Hobbies
             </h3>
             <p className="text-gray-300">
@@ -99,7 +99,7 @@ const About = () => {
           <a
             href= {Lokesh} // Replace with the actual path to your CV file
             download
-            className="inline-block bg-purple-600 text-white font-semibold py-2 px-8 rounded-lg text-xl shadow-md hover:bg-purple-500 hover:scale-105 transition-all duration-300"
+            className="inline-block bg-blue-500 text-white font-semibold py-2 px-8 rounded-lg text-xl shadow-md hover:bg-blue-600 hover:scale-105 transition-all duration-300"
           >
             Get CV
           </a>

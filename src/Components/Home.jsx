@@ -59,6 +59,7 @@ const Home = () => {
             "C++",
             "Java",
             "Bootstrap",
+            "Data structures and algorithms",
           ].map((skill, index) => (
             <div
               key={index}

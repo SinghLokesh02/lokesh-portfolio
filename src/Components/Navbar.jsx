@@ -10,37 +10,37 @@ const Navbar = () => {
           <div className="flex justify-between h-16">
             <div className="flex items-center justify-between w-full">
               <div className="head">
-                <h1 className="text-2xl font-bold text-purple-400">Lokesh</h1>
+                <h1 className="text-2xl font-bold  text-blue-500">Lokesh</h1>
               </div>
               <div className="hidden sm:-my-px sm:ml-6 sm:flex sm:space-x-8">
                 <div className="others-link flex gap-x-5">
                   <a
                     href="#home"
-                    className="text-gray-300 hover:text-purple-400 transition-colors duration-300 text-lg"
+                    className="text-gray-300 hover:text-blue-500 transition-colors duration-300 text-lg"
                   >
                     Home
                   </a>
                   <a
                     href="#about"
-                    className="text-gray-300 hover:text-purple-400 transition-colors duration-300 text-lg"
+                    className="text-gray-300 hover:text-blue-500 transition-colors duration-300 text-lg"
                   >
                     About
                   </a>
                   <a
                     href="#experience"
-                    className="text-gray-300 hover:text-purple-400 transition-colors duration-300 text-lg"
+                    className="text-gray-300 hover:text-blue-500 transition-colors duration-300 text-lg"
                   >
                     Experience
                   </a>
                   <a
                     href="#skills"
-                    className="text-gray-300 hover:text-purple-400 transition-colors duration-300 text-lg"
+                    className="text-gray-300 hover:text-blue-500 transition-colors duration-300 text-lg"
                   >
                     Skills
                   </a>
                   <a
                     href="#contact"
-                    className="text-gray-300 hover:text-purple-400 transition-colors duration-300 text-lg"
+                    className="text-gray-300 hover:text-blue-500 transition-colors duration-300 text-lg"
                   >
                     Contact Me
                   </a>
@@ -87,31 +87,31 @@ const Navbar = () => {
           <div className="px-2 pt-2 pb-3 space-y-1">
             <a
               href="#home"
-              className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-purple-400 hover:bg-gray-800"
+              className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-blue-500 hover:bg-gray-800"
             >
               Home
             </a>
             <a
               href="#about"
-              className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-purple-400 hover:bg-gray-800"
+              className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-blue-500 hover:bg-gray-800"
             >
               About
             </a>
             <a
               href="#experience"
-              className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-purple-400 hover:bg-gray-800"
+              className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-blue-500 hover:bg-gray-800"
             >
               Experience
             </a>
             <a
               href="#skills"
-              className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-purple-400 hover:bg-gray-800"
+              className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-blue-500 hover:bg-gray-800"
             >
               Skills
             </a>
             <a
               href="#contact"
-              className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-purple-400 hover:bg-gray-800"
+              className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-blue-500 hover:bg-gray-800"
             >
               Contact Me
             </a>
