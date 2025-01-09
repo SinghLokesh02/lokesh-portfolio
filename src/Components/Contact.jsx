@@ -17,6 +17,7 @@ const Contact = () => {
           action="https://api.web3forms.com/submit"
           method="POST"
         >
+          <input type="hidden" name="redirect" value="https://thankyou-page-lokesh.vercel.app/"/> 
           <input
             type="hidden"
             name="access_key"
