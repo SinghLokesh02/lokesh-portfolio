@@ -101,7 +101,7 @@ const About = () => {
             download
             className="inline-block bg-blue-500 text-white font-semibold py-2 px-8 rounded-lg text-xl shadow-md hover:bg-blue-600 hover:scale-105 transition-all duration-300"
           >
-            Get CV
+            Download CV
           </a>
         </div>
       </div>

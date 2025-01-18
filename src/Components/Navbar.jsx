@@ -10,7 +10,7 @@ const Navbar = () => {
           <div className="flex justify-between h-16">
             <div className="flex items-center justify-between w-full">
               <div className="head">
-                <h1 className="text-2xl font-bold  text-blue-500">Lokesh</h1>
+                <a className="text-2xl font-bold  text-blue-500" href="#home">Lokesh</a>
               </div>
               <div className="hidden sm:-my-px sm:ml-6 sm:flex sm:space-x-8">
                 <div className="others-link flex gap-x-5">
