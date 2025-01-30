@@ -23,8 +23,8 @@ const Home = () => {
       </div>
 
       {/* About Section */}
-      <div className="container mx-auto px-6 py-12">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 animate-fadeIn">
+      <div className="mx-auto px-6 py-12 ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 animate-fadeIn md:px-[12%]">
           <div className="text-lg text-gray-300 flex items-center text-justify md:text-left">
             <p>
               Hi! I am Lokesh Singh, a highly motivated and experienced Coding
@@ -33,7 +33,7 @@ const Home = () => {
               their goals in software development.
             </p>
           </div>
-          <div className="flex justify-center">
+          <div className="flex md:justify-end justify-center">
             <img
               src={ProfilePic}
               alt="Lokesh Singh"
